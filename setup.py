@@ -7,7 +7,7 @@ import os
 import shutil
 import sys
 
-from setuptools import find_packages, setup, Command
+from setuptools import setup, Command
 
 from crossplane import (
     __title__, __summary__, __url__, __version__, __author__, __email__,
@@ -65,7 +65,7 @@ setup(
     author=__author__,
     author_email=__email__,
     url=__url__,
-    packages=find_packages(exclude=['tests','tests.*']),
+    packages=['crossplane'],
     license=__license__,
     classifiers=[
         'Development Status :: 3 - Alpha',
@@ -73,14 +73,10 @@ setup(
         'Intended Audience :: Information Technology',
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy'
     ],
