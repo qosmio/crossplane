@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "crossplane"
+version = "0.5.9"
+authors = ["Arie van Luttikhuizen <aluttik@gmail.com>"]
+license = "Apache 2.0"
+description = "Reliable and fast NGINX configuration file parser."
+readme = "README.md"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Information Technology",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+homepage = "https://github.com/nginxinc/crossplane"
+packages = [{ include = "crossplane" }]
+
+[tool.poetry.scripts]
+crossplane = "crossplane.__main__:main"
