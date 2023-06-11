@@ -1,3 +1,4 @@
+PYTHON3:=python3
 
 .PHONY: help clean rebuild test-all test
 
@@ -24,16 +25,16 @@ clean:
 rebuild:
 	@make clean
 	rm -fr .tox
-	python -m tox --skip-missing-interpreters --recreate --notest
+	$(PYTHON3) -m tox --skip-missing-interpreters --recreate --notest
 	@make clean
 
 
 test-all:
 	@make clean
-	python -m tox
+	$(PYTHON3) -m tox
 	@make clean
 
 test:
 	@make clean
-	python -m tox --skip-missing-interpreters
+	$(PYTHON3) -m tox --skip-missing-interpreters
 	@make clean
