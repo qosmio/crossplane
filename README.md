@@ -28,7 +28,7 @@ You can install both the [Command Line
 Interface](#command-line-interface) and [Python Module](#python-module)
 via:
 
-    pip install crossplane
+    pip install crossplane-ng
 
 ## Command Line Interface
 
