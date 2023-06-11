@@ -1,10 +1,10 @@
-![Crossplane Logo](https://raw.githubusercontent.com/nginxinc/crossplane/master/ext/crossplane-logo.png)
+![Crossplane Logo](https://raw.githubusercontent.com/qosmio/crossplane/master/ext/crossplane-logo.png)
 <h1 align="center">crossplane</h1>
 <h3 align="center">Reliable and fast NGINX configuration file parser and builder</h3>
 
 <p align="center">
-<a href="https://github.com/nginxinc/crossplane/actions/workflows/crossplane-ci.yml"><img src="https://github.com/nginxinc/crossplane/actions/workflows/crossplane-ci.yml/badge.svg"></a>
-<a href="https://github.com/nginxinc/crossplane/releases"><img src="https://img.shields.io/github/release/nginxinc/crossplane.svg"></a>
+<a href="https://github.com/qosmio/crossplane/actions/workflows/crossplane-ci.yml"><img src="https://github.com/qosmio/crossplane/actions/workflows/crossplane-ci.yml/badge.svg"></a>
+<a href="https://github.com/qosmio/crossplane/releases"><img src="https://img.shields.io/github/release/qosmio/crossplane.svg"></a>
 <a href="https://pypi.python.org/pypi/crossplane"><img src="https://img.shields.io/pypi/l/crossplane.svg"></a>
 <a href="https://pypi.python.org/pypi/crossplane"><img src="https://img.shields.io/pypi/pyversions/crossplane.svg"></a>
 </p>

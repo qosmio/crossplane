@@ -57,7 +57,7 @@ class UploadCommand(Command):
 
 
 setup(
-    name=__title__,
+    name='crossplane-ng',
     version=__version__,
     description=__summary__,
     long_description=get_readme(),

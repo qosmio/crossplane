@@ -9,7 +9,7 @@ __all__ = ['parse', 'lex', 'build', 'format']
 
 __title__ = 'crossplane'
 __summary__ = 'Reliable and fast NGINX configuration file parser.'
-__url__ = 'https://github.com/nginxinc/crossplane'
+__url__ = 'https://github.com/qosmio/crossplane'
 
 __version__ = '0.5.9'
 
